@@ -1,0 +1,24 @@
+.MapAndResultsClass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: center;
+  overflow: hidden;
+}
+
+#map {
+  /* left: 2vw; */
+  position: center;
+  margin-top: 30px;
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 730px) {
+  #map {
+    left: 0vw;
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: -4.5rem;
+    transform: scale(0.7, 0.7);
+  }
+}
